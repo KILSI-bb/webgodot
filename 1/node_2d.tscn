@@ -1,0 +1,33 @@
+[gd_scene format=3 uid="uid://kw2rfvgepj7i"]
+
+[ext_resource type="Texture2D" uid="uid://bgx8uxds2b85n" path="res://WallPixel.png" id="2_0e48y"]
+[ext_resource type="PackedScene" uid="uid://c4lddlvooidcv" path="res://player_ship.tscn" id="4_0hol4"]
+
+[node name="Node2D" type="Node2D" unique_id=531806678]
+
+[node name="1" type="Sprite2D" parent="." unique_id=345787726]
+position = Vector2(40.99915, 324.37958)
+rotation = -1.5708
+scale = Vector2(0.27592432, 0.1)
+texture = ExtResource("2_0e48y")
+
+[node name="2" type="Sprite2D" parent="." unique_id=2128179631]
+position = Vector2(1110.9991, 324.37958)
+rotation = -1.5708
+scale = Vector2(0.27592435, 0.1)
+texture = ExtResource("2_0e48y")
+
+[node name="3" type="Sprite2D" parent="." unique_id=1567632092]
+position = Vector2(572.9499, 607)
+scale = Vector2(0.50667554, 0.1)
+texture = ExtResource("2_0e48y")
+
+[node name="4" type="Sprite2D" parent="." unique_id=965029057]
+position = Vector2(573.9499, 41)
+scale = Vector2(0.5075598, 0.1)
+texture = ExtResource("2_0e48y")
+
+[node name="ship" parent="." unique_id=604377908 instance=ExtResource("4_0hol4")]
+position = Vector2(561, 316.00003)
+rotation = -2.5586526
+scale = Vector2(0.35, 0.35)
